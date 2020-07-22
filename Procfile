@@ -1,1 +1,1 @@
-worker: python djsqht.py
+worker: python stone.py
