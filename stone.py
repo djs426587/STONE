@@ -29,4 +29,5 @@ async def on_message(message):
             else:
                 pass
 
-client.run('NzM1NDA4NjUxNDEzNjE4NzUw.XxgK8A.iAtg6lKmLzWCEjzMy9O-IvzuoB4')
+access_token = os.environ["token"]
+client.run(access_token)
